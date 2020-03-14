@@ -1,0 +1,13 @@
+[basics]
+art=arbeit
+nummer=2
+datum=16.01.2020
+
+[noten]
+notenschritte=4
+punkte=master
+eins=100%%
+vier=60%%
+ort=noten.csv
+
+[ausnahmen]

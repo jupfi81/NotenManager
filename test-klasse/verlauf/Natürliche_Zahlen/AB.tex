@@ -1,0 +1,172 @@
+% chktex-file 44
+% chktex-file 3
+% chktex-file 36
+% {{{ Praeambel
+\documentclass[parskip=half-,a4paper]{scrartcl}
+% {{{ Sprache und Kodierung
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{lmodern}
+\usepackage{microtype}
+\renewcommand{\familydefault}{\sfdefault}
+% }}}
+% {{{ Seitenlayout
+\usepackage{geometry}
+\geometry{left=1.5cm, right=1.5cm, top=2cm, bottom=1.5cm}
+\pagestyle{empty}
+\usepackage{enumitem}
+% }}}
+% {{{ Mathepakete
+\usepackage{mathtools}
+\usepackage{siunitx}
+\usepackage{ziffer}
+% }}}
+% {{{ Aufgabenpakete
+\usepackage{tasks}
+\usepackage{tabularx}
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+% }}}
+% {{{ Grafikpakete
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{pgf}
+% }}}
+% {{{ Kopf und Fußzeile
+\usepackage[headsepline]{scrlayer-scrpage}
+\renewcommand*{\headfont}{\normalfont}
+\pagestyle{scrheadings}
+\clearscrheadfoot{}
+\ihead{Klasse 5}
+\chead{\textbf{Rechnen im 5er-System}}
+\ohead{\today}
+% }}}
+% }}}
+
+\begin{document}
+
+\renewcommand{\arraystretch}{1.5}
+% {{{ Addition
+\begin{minipage}[t]{11cm}
+Das 1+1 im 10er-System.
+\par\bigskip
+
+\begin{tabularx}{11cm}{Y||Y|Y|Y|Y|Y|Y|Y|Y|Y|Y}
+	+ & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 \\\hline\hline
+	0&&&&&&&&&\\\hline
+	1&&&&&&&&&\\\hline
+	2&&&&&&&&&\\\hline
+	3&&&&&&&&&\\\hline
+	4&&&&&&&&&\\\hline
+	5&&&&&&&&&\\\hline
+	6&&&&&&&&&\\\hline
+	7&&&&&&&&&\\\hline
+	8&&&&&&&&&\\\hline
+	9&&&&&&&&&\\
+\end{tabularx}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{6cm}
+Das 1+1 im 5er-System.
+\par\bigskip
+
+\begin{tabularx}{6cm}{Y||Y|Y|Y|Y|Y}
+	+ & $(0)_5$ & $(1)_5$& $(2)_5$& $(3)_5$& $(4)_5$ \\\hline\hline
+	$(0)_5$&&&&\\\hline
+	$(1)_5$&&&&\\\hline
+	$(2)_5$&&&&\\\hline
+	$(3)_5$&&&&\\\hline
+	$(4)_5$&&&&
+\end{tabularx}
+\end{minipage}
+
+\textbf{Aufgabe 1}\par
+Fülle die beiden Tabellen aus. Achte bei der rechten Tabelle darauf, dass es nur die Ziffern 0, 1, 2, 3 und 4 gibt.
+
+\textbf{Aufgabe 2}\par
+Stelle dir vor, du sollst jemandem erklären, der nicht Kopfrechnen kann, wie man zusammen mit der linken Tabelle
+schriftlich addiert. Schreibe einen kleinen Text. Nehme als Beispiel die Rechnung $253+86$.
+
+\textbf{Aufgabe 3}\par
+Rechne die folgenden Aufgaben direkt im 5er-System mit der rechten Tabelle. Überprüfe anschließend, ob deine Rechnung
+stimmt, indem du alle Zahlen ins 10er-System übersetzt.
+
+\begin{tasks}(4)
+	\task $(24)_5+(12)_5$
+	\task $(33)_5+(22)_5$
+	\task $(1000)_5+(2000)_5$
+	\task $(3421)_5+(2342)_5$
+	\task $(30)_5+(20)_5$
+	\task $(22)_5+(44)_5$
+	\task $(300)_5+(300)_5$
+	\task $(4413)_5+(3024)_5$
+\end{tasks}
+
+\textbf{Aufgabe 5}\par
+Schreibe eine Erklärung wie in Aufgabe 2 für die Addition im 5er-System.
+
+% }}}
+\newpage
+% {{{ Multiplikation
+\begin{minipage}[t]{11cm}
+Das 1$\cdot$1 im 10er-System.
+\par\bigskip
+
+\begin{tabularx}{11cm}{Y||Y|Y|Y|Y|Y|Y|Y|Y|Y|Y}
+	$\cdot$ & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 \\\hline\hline
+	0&&&&&&&&&\\\hline
+	1&&&&&&&&&\\\hline
+	2&&&&&&&&&\\\hline
+	3&&&&&&&&&\\\hline
+	4&&&&&&&&&\\\hline
+	5&&&&&&&&&\\\hline
+	6&&&&&&&&&\\\hline
+	7&&&&&&&&&\\\hline
+	8&&&&&&&&&\\\hline
+	9&&&&&&&&&\\
+\end{tabularx}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{6cm}
+Das 1$\cdot$1 im 5er-System.
+\par\bigskip
+
+\begin{tabularx}{6cm}{Y||Y|Y|Y|Y|Y}
+	$\cdot$ & $(0)_5$ & $(1)_5$& $(2)_5$& $(3)_5$& $(4)_5$ \\\hline\hline
+	$(0)_5$&&&&\\\hline
+	$(1)_5$&&&&\\\hline
+	$(2)_5$&&&&\\\hline
+	$(3)_5$&&&&\\\hline
+	$(4)_5$&&&&
+\end{tabularx}
+\end{minipage}
+
+\textbf{Aufgabe 1}\par
+Fülle die beiden Tabellen aus. Achte bei der rechten Tabelle darauf, dass es nur die Ziffern 0, 1, 2, 3 und 4 gibt.
+
+\textbf{Aufgabe 2}\par
+Stelle dir vor, du sollst jemandem erklären, der nicht Kopfrechnen kann, wie man zusammen mit der linken Tabelle
+schriftlich multipliziert. Schreibe einen kleinen Text. Nehme als Beispiel die Rechnung $253\cdot 24$.
+
+\textbf{Aufgabe 3}\par
+Rechne die folgenden Aufgaben direkt im 5er-System mit der rechten Tabelle. Überprüfe anschließend, ob deine Rechnung
+stimmt, indem du alle Zahlen ins 10er-System übersetzt.
+
+\begin{tasks}(4)
+	\task $(24)_5\cdot(12)_5$
+	\task $(33)_5\cdot(22)_5$
+	\task $(1000)_5\cdot(2000)_5$
+	\task $(3421)_5\cdot(2342)_5$
+	\task $(30)_5\cdot(20)_5$
+	\task $(22)_5\cdot(44)_5$
+	\task $(300)_5\cdot(300)_5$
+	\task $(4413)_5\cdot(3024)_5$
+\end{tasks}
+
+\textbf{Aufgabe 5}\par
+Schreibe eine Erklärung wie in Aufgabe 2 für die Multiplikation im 5er-System.
+
+% }}}
+
+\end{document}

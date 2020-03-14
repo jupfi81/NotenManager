@@ -1,0 +1,40 @@
+% {{{ Praeamble
+\documentclass[
+	full-,
+	a4paper,
+	B,
+	Antworten,
+	]{KA} % {{{ documentclass
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+%\usepackage{arev}
+%\usepackage[sfmath,lighttext]{kpfonts}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{sfmath}
+
+\usepackage{tasks}
+\settasks{after-item-skip=-5pt}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.15}
+\usepackage{mathtools}
+\usepackage[decimalsymbol=comma]{siunitx}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{xfp}
+\usepackage{xparse}
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+\settasks{item-indent={0pt}, before-skip={-5pt}}
+% }}}
+\settitle{2. KA --- Statistik und Terme}
+\setdate{10.01.2020}
+\setklasse{7c}
+% }}}
+\begin{document}
+\input{Schriftlich}
+\input{Zahlensystem}
+\input{Einheiten}
+\end{document}

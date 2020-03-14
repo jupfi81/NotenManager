@@ -1,0 +1,86 @@
+% {{{ Praeambel
+\documentclass[parskip=half-,a5paper]{scrartcl}
+% {{{ Sprache und Kodierung
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{lmodern}
+\usepackage{microtype}
+\renewcommand{\familydefault}{\sfdefault}
+% }}}
+% {{{ Seitenlayout
+\usepackage{geometry}
+\geometry{left=1.5cm, right=1.5cm, top=2cm, bottom=1.5cm}
+\pagestyle{empty}
+\usepackage{enumitem}
+% }}}
+% {{{ Mathepakete
+\usepackage{mathtools}
+\usepackage{siunitx}
+\usepackage{ziffer}
+% }}}
+% {{{ Aufgabenpakete
+\usepackage{exsheets}
+\usepackage{tasks}
+% }}}
+% {{{ Grafikpakete
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{pgf}
+% }}}
+% {{{ Kopf und Fußzeile
+\usepackage[headsepline]{scrlayer-scrpage}
+\renewcommand*{\headfont}{\normalfont}
+\pagestyle{scrheadings}
+\clearscrheadfoot{}
+\ihead{Klasse 5}
+\chead{\textbf{2. Rechengesetze}}
+\ohead{SJ 20/21}
+% }}}
+% }}}
+
+\begin{document}
+\begin{tasks}
+	\task \textbf{Kommutativgesetz bei Summen (KG+)}
+
+	Kommen in einem Rechenausdruck nur Pluszeichen vor, darf beliebig getauscht
+	werden.
+
+	Beispiel: $13+62+87 = 13+87+62 = 100 + 62 = 162$
+	%
+	\task \textbf{Assoziativgesetz bei Summen (AG+)}
+
+	Kommen in einem Rechenausdruck nur Pluszeichen vor, dürfen Klammern beliebig
+	gesetzt und weggelassen werden.
+
+	Beispiel: $24+(74+71) = (24+76)+71 = 100 + 71 = 171$
+	%
+	\task \textbf{Kommutativgesetz bei Produkten (KG$\cdot$)}
+
+	Kommen in einem Rechenausdruck nur Malzeichen vor, darf beliebig getauscht
+	werden.
+
+	Beispiel: $4\cdot 13 \cdot 5= 4 \cdot 5 \cdot 13 = 20 \cdot 13 = 260$
+	%
+	\task \textbf{Assoziativgesetz bei Produkten (AG$\cdot$)}
+
+	Kommen in einem Rechenausdruck nur Malzeichen vor, dürfen Klammern beliebig
+	gesetzt oder weggelassen werden.
+
+	Beispiel: $2\cdot (5 \cdot 135)=(2\cdot 5)\cdot 135 = 10\cdot 135 =1350$
+\end{tasks}
+
+\textbf{\large Vorsicht!}
+
+Die obigen Rechengesetze gelten nicht, wenn Minuszeichen oder Geteiltzeichen
+vorkommen.
+\begin{itemize}
+	\item $23-7+3=19$ aber $23-3+7=27$
+	\item $23-(3+7)=23-10=13$ aber $(23-3)+7=20+7=27$
+	\item $12:4\cdot 3 = 3 \cdot 3 = 9$ aber $12 : 3 \cdot 4 = 4 \cdot 4 = 16$
+	\item $12:(4 \cdot 3) = 12 : 12 = 1$ aber $(12:4)\cdot 3 = 3\cdot 3 = 9$
+\end{itemize}
+
+\flushright{\includegraphics[width=2.5cm]{/home/ac/Bilder/Schildkroete.png}}
+\end{document}

@@ -1,0 +1,11 @@
+[basics]
+art=test
+nummer=1
+datum=09.12.2019
+
+[noten]
+notenschritte=2
+punkte=master
+eins=11
+vier=5
+ort=noten.csv

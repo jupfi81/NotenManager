@@ -1,0 +1,33 @@
+% chktex-file 18
+% {{{ Praeamble
+\documentclass[full-,a4paper]{KA} % {{{ documentclass
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{lmodern}
+\usepackage{microtype}
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{tasks}
+\settasks{after-item-skip={-6pt}}
+\usepackage{mathtools}
+\usepackage{siunitx}
+\usepackage{tabularx}
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+\usepackage{romannum}
+\newcommand{\Rom}[1]{\Romannum{#1}}
+% }}}
+\settitle{1. Klassenarbeit}
+\setdate{14.11.2019}
+\setklasse{5b}
+% }}}
+\begin{document}
+% chktex-file 18
+%\pagestyle{einseitig}
+\input{RomZahl}
+\input{Zahlenstrahl}
+\input{Zehnersystem}
+\end{document}

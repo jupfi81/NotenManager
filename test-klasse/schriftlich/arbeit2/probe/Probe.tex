@@ -1,0 +1,196 @@
+% chktex-file 44
+% chktex-file 36
+% {{{ Praeamble
+\documentclass[
+	full-,
+	a5paper,
+	Probe,
+	%NurAntworten,
+	]{KA} % {{{ documentclass
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{lmodern}
+\usepackage{microtype}
+\geometry{left = 1.2cm, right=1.5cm, bottom=1.5cm}
+\usepackage{sfmath}
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage{tasks}
+\settasks{after-item-skip=0pt}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\pgfplotsset{compat=1.15}
+\usepackage{mathtools}
+\usepackage{siunitx}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{xfp}
+\usepackage[misc]{ifsym}
+\usepackage{xparse}
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+% }}}
+\settitle{2. KA --- Probearbeit}
+\setdate{13.01.2020}
+\setklasse{5b}
+% }}}
+\begin{document}
+\begin{Aufgabe*}{0} % schriftliches Rechnen
+	Berechne schriftlich.
+	\begin{tasks}(4)
+		\task $145\cdot 3$
+		\task $\inteval{324*7}:7$
+		\task $473\cdot 377$
+		\task $\inteval{155*13}:13$
+	\end{tasks}
+\end{Aufgabe*}
+\begin{Loesung}
+	\begin{tasks}(2)
+		\task $145\cdot 3=\inteval{145*3}$
+		\task $\inteval{324*7}:7=324$
+		\task $473\cdot 377=\inteval{473*377}$
+		\task $\inteval{155*13}:13=155$
+	\end{tasks}
+\end{Loesung}
+\begin{Aufgabe*}{0} % 5er-System -> 10er-System
+	Schreibe die Zahl im Dezimalsystem.
+	\begin{tasks}(4)
+		\task ${(13)}_5$
+		\task ${(422)}_5$
+		\task ${(340)}_5$
+		\task ${(2043)}_5$
+	\end{tasks}
+\end{Aufgabe*}
+\begin{Loesung} % 5er-System -> 10er-System
+	\begin{tasks}(2)
+		\task ${(13)}_5=\inteval{5+3}$
+		\task ${(422)}_5=\inteval{4*25+2*5+2}$
+		\task ${(340)}_5=\inteval{3*25+4*5}$
+		\task ${(2043)}_5=\inteval{2*125+4*5+3}$
+	\end{tasks}
+\end{Loesung}
+\begin{Aufgabe*}{0} % 10er-System -> 5er-System
+	Schreibe die Zahl im 5er-System.
+	\begin{tasks}(4)
+		\task $9$
+		\task $17$
+		\task $35$
+		\task $251$
+	\end{tasks}
+\end{Aufgabe*}
+\begin{Loesung} % 10er-System -> 5er-System
+	Schreibe die Zahl im 5er-System.
+	\begin{tasks}(4)
+		\task $9={(14)}_5$
+		\task $17={(32)}_5$
+		\task $35={(120)}_5$
+		\task $251={(2001)}_5$
+	\end{tasks}
+\end{Loesung}
+\begin{Aufgabe*}{0} % Umrechnen von Längeneinheiten
+	Rechne in die angegebene Einheit um.
+	\begin{tasks}(3)
+		\task \SI{21}{\centi\meter} in \si{\milli\meter}
+		\task \SI{21}{\deci\meter} in \si{\milli\meter}
+		\task \SI{450000}{\milli\meter} in \si{\meter}
+	\end{tasks}
+\end{Aufgabe*}
+\begin{Loesung} % Umrechnen von Längeneinheiten
+	Rechne in die angegebene Einheit um
+	\begin{tasks}(3)
+		\task \SI{21}{\milli\meter} = \SI{210}{\milli\meter}
+		\task \SI{21}{\deci\meter} = \SI{2100}{\milli\meter}
+		\task \SI{450000}{\milli\meter} = \SI{450}{\meter}
+	\end{tasks}
+\end{Loesung}
+\begin{Aufgabe*}{0} % Rechnen mit Einheiten
+\begin{tasks}
+	\task Eva sägt einen \SI{10}{\meter} langen Baum in \SI{5}{\centi\meter} dicke Scheiben. Berechne, wie viele
+	Scheiben sie erhält.
+	\task Eine 1-Cent-Münze ist \SI{1}{\milli\meter} dick.
+	Berechne, wie groß ein Turm aus \num{5000000} Münzen ist. Gib
+	das Ergebnis in einer passenden Einheit an.
+	\task Stella will ein Bücherregal bauen. Dafür braucht sie 20 Bretter, die jeweils \SI{30}{\centi\meter} lang sind.
+	Im Baumarkt gibt es nur \SI{2}{\meter} lange Bretter, die sie selbst zusägen muss. Berechne, wie viele Bretter Stella mindestens kaufen muss.
+\end{tasks}
+\end{Aufgabe*}
+\begin{Aufgabe}{0} % Balkendiagramm
+
+	\begin{minipage}{0.55\textwidth}
+	Das Haus von Marcos Eltern ist gerade vollgestopft mit 50 Besuchern.
+	Um sich für ein Abendessen zu entscheiden, soll Marco eine Umfrage machen, was es zu Essen geben soll. Stelle seine
+	Strichliste (rechts) als Balkendiagramm dar.
+	\end{minipage}
+	\hfill
+	\begin{minipage}{0.4\textwidth}
+		\fbox{
+	\begin{tabular}{ll}
+		Pizza &\StrokeFive\StrokeFive\StrokeFive\StrokeFive\\ % 20
+		Lasagne &\StrokeFive\StrokeThree\\ % 8
+		Kartoffelsalat &\StrokeFive\\ % 5
+		Rosenkohlauflauf & \\ % 0
+		Curry mit Reis& \StrokeFive\StrokeFive\StrokeFive\StrokeTwo\\ % 17
+	\end{tabular}
+}
+	\end{minipage}
+\end{Aufgabe}
+\begin{minipage}{\textwidth-4.1cm}
+\begin{Loesung}
+	\begin{tasks}
+		\task
+			$\SI{10}{\meter}:\SI{5}{\centi\meter}
+				=\SI{1000}{\centi\meter}:\SI{5}{\centi\meter}
+				=\num{\inteval{1000/5}}$\\
+			Sie erhält \inteval{1000/5} Scheiben.
+		\task 
+			$\num{5000000}\cdot\SI{1}{\milli\meter}
+				= \SI{5000000}{\milli\meter}
+				= \SI{5}{\kilo\meter}$\\
+			Der Turm ist \SI{500}{\meter} hoch.
+			\task Aus einem langen Brett kann sie\\
+			$\SI{2}{\meter}:\SI{30}{\centi\meter}=
+			\SI{200}{\centi\meter}:\SI{30}{\centi\meter}= 6 \text{ R } \SI{20}{\centi\meter}$\\
+			zurecht sägen.
+			Sie braucht also mindestens 4 lange Bretter (3 wären zu wenig).
+	\end{tasks}
+\end{Loesung}
+\end{minipage}
+\begin{minipage}{5.2cm}
+\begin{Loesung}
+	\begin{tikzpicture}
+		\node at (3.3, 0) {\small Essen};
+		\node at (-0.5, 3.5) {\small Anzahl};
+		\begin{axis}[
+			title = Was essen wir zu Abend?,
+			ybar,
+			bar width=0.3cm,
+			ymin = 0, ymax = 23,
+			axis lines = left,
+			width=4.5cm,
+			height=5cm,
+			enlarge x limits=0.2,
+			xticklabel style = {rotate=90},
+			symbolic x coords={
+				Pizza,
+				Lasagne,
+				Kartoffelsalat,
+				Rosenkohlauflauf,
+				Curry mit Reis
+			},
+			xtick=data,
+		minor tick num = 1, grid=both, thick,
+		]
+		\addplot coordinates {
+			(Pizza, 20)
+			(Lasagne, 8)
+			(Kartoffelsalat, 5)
+			(Rosenkohlauflauf, 0)
+			(Curry mit Reis, 17)
+		};
+		\end{axis}
+	\end{tikzpicture}
+\end{Loesung}
+\end{minipage}
+\end{document}

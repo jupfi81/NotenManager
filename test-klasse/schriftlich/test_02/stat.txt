@@ -1,0 +1,6 @@
+Minimum  1.0
+u. Quar. 1.0
+Median   1.0
+Schnitt  1.39
+o. Quar. 2.0
+Maximum  2.0

@@ -1,0 +1,27 @@
+[basics]
+Klasse = 3
+Fach = Mathe
+Kategorien = schriftlich, muendlich, gfs
+
+[wichtung]
+schriftlich = 2
+muendlich = 1
+arbeit = 1
+test = 1
+monat = 1
+gfs = 1
+
+[bewertungsart]
+arbeit = e
+test = g
+monat = e
+gfs =e
+
+[arten]
+arbeit = schriftlich
+gfs = schriftlich
+test = schriftlich
+monat = muendlich
+
+[noten]
+skala=6

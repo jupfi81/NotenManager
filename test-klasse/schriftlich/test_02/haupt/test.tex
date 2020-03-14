@@ -1,0 +1,59 @@
+% chktex-file 36
+% chktex-file 1
+% {{{ Praemable
+% {{{ documentclass, babel, inputenc
+\documentclass[a5paper,B]{KA}
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+% }}}
+% {{{ Mathepakete
+\usepackage{mathtools}
+\usepackage{siunitx}
+\usepackage{ziffer}
+\usepackage{pythontex}
+\usepackage{tasks}
+\usepackage{etoolbox}
+\usepackage{tikz}
+\usepackage{xfp}
+\newcommand{\A}{}
+\newcommand{\B}{}
+% }}}
+% {{{ Kopf- und Fußzeile
+\setklasse{5}
+\settitle{1. Test}
+\setdate{09.12.19}
+% }}}
+% }}}
+\begin{document}
+Berechne im Kopf. Schreibe nur das Ergebnis auf.\par\bigskip
+\newcommand{\help}{}
+	\newcommand{\Plus}[2]{%
+		#1 + #2=
+	}
+	\newcommand{\Minus}[2]{%
+		\renewcommand{\help}{#1}
+		\fpeval{\help+#2} - \help= % chktex 8
+	}
+	\newcommand{\Mal}[2]{%
+		\fpeval{#1} \cdot #2= % chktex 8
+	}
+	\newcommand{\Geteilt}[2]{%
+		\renewcommand{\help}{#2}
+		\fpeval{#1*\help}:\help= % chktex 8
+	}
+\settasks{after-item-skip=25pt}
+\begin{tasks}(2)
+	\task \Variante{$\Plus{42}{88}$}{$\Plus{32}{88}$}
+	\task \Variante{$\Plus{125}{65}$}{$\Plus{115}{75}$}
+	\task \Variante{$\Minus{56}{18}$}{$\Minus{57}{18}$}
+	\task \Variante{$\Minus{274}{180}$}{$\Minus{274}{190}$}
+	\task \Variante{$\Mal{6}{4}$}{$\Mal{3}{6}$}
+	\task \Variante{$\Mal{7}{3}$}{$\Mal{7}{4}$}
+	\task \Variante{$\Mal{9}{8}$}{$\Mal{9}{7}$}
+	\task \Variante{$\Mal{80}{30}$}{$\Mal{60}{40}$}
+	\task \Variante{$\Geteilt{8}{4}$}{$\Geteilt{7}{5}$}
+	\task \Variante{$\Geteilt{6}{300}$}{$\Geteilt{4}{400}$}
+	\task \Variante{$\Geteilt{16}{3}$}{$\Geteilt{14}{3}$}
+	\task \Variante{$\Mal{14}{63}$}{$\Mal{13}{63}$}
+\end{tasks}
+\end{document}

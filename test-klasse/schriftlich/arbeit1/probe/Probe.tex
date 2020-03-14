@@ -1,0 +1,104 @@
+% chktex-file 1
+% chktex-file 36
+% {{{ Praeambel
+\documentclass[a5paper]{scrartcl}
+% {{{ Sprache und Kodierung
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{lmodern}
+\usepackage{microtype}
+\renewcommand{\familydefault}{\sfdefault}
+% }}}
+% {{{ Seitenlayout
+\usepackage{geometry}
+\geometry{left=1.5cm, right=1.5cm, top=2cm, bottom=1.5cm}
+\pagestyle{empty}
+\usepackage{enumitem}
+% }}}
+% {{{ Mathepakete
+\usepackage{mathtools}
+\usepackage{siunitx}
+\usepackage{ziffer}
+% }}}
+% {{{ Aufgabenpakete
+\usepackage{exsheets}
+\usepackage{tasks}
+% }}}
+% {{{ Grafikpakete
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{pgf}
+% }}}
+% {{{ Kopf und Fußzeile
+\usepackage[headsepline]{scrlayer-scrpage}
+\renewcommand*{\headfont}{\normalfont}
+\pagestyle{scrheadings}
+\clearscrheadfoot{}
+\ihead{Klasse 5}
+\chead{\textbf{1. KA --- Probeaufgaben}}
+\ohead{\today}
+\newcommand{\Rom}[1]{\uppercase{\expandafter\romannumeral#1}}
+% }}}
+% }}}
+
+\begin{document}
+\begin{enumerate}
+	\item Schreibe als Dezimalzahl: a
+		\begin{tasks}(4)
+			\task \Rom{6}
+			\task \Rom{9}
+			\task \Rom{1900}
+			\task \Rom{48}
+		\end{tasks}
+	\item Schreibe als römische Zahl:
+		\begin{tasks}(4)
+			\task 12
+			\task 53
+			\task 900
+			\task 2019
+		\end{tasks}
+	\item 
+		\begin{tasks}
+			\task Trage die Zahlen 0, 5, 14, 8, 2, 18 auf einen Zahlenstrahl ein.
+			\task Trage die Zahlen 35, 75, 20, 5, 25, 50, 110, 90, 85 auf einen Zahlenstrahl ein.
+		\end{tasks}
+	\item 
+		Markiere auf dem Zahlenstrahl
+		\begin{tasks}
+			\task alle Zahlen, die kleiner als 3 sind (grün).
+			\task alle Zahlen, die größer als 3 und kleiner als 7 sind (blau).
+			\task alle Zahlen, die größer als 7 sind (orange).
+		\end{tasks}
+		\vspace{21pt}
+\begin{tikzpicture}
+  \draw[->] (0,0) -- (10.5,0);
+  \foreach \x in {0,...,10}
+    \draw (\x,0.1) -- (\x,-0.1) node [below] {\x};
+\end{tikzpicture}
+\item Runde:
+	\begin{tasks}(2)
+		\task 354 auf Zehner
+		\task \SI{2345}{} auf Hunderter
+		\task \SI{123999}{} auf Zehner
+		\task \SI{123456}{} auf Zehntausender
+	\end{tasks}
+\item
+	\begin{tasks}
+		\task Gebe an, wie viele Nullen eine Billion hat.
+		\task Schreibe einundzwanzigmillionendreihunderttausendvierundsechzig als Dezimalzahl.
+	\end{tasks}
+\item Berechne schriftlich. Führe zunächst eine Überschlagsrechnung durch.
+	\begin{tasks}(3)
+		\task $\SI{345}{}+\SI{2386}{}$
+		\task $\SI{345673}{}-\SI{211128}{}$
+		\task $\SI{14345}{}\cdot \SI{28}{}$
+	\end{tasks}
+\item Berechne:
+	\begin{tasks}
+		\task Multipliziere 12 und 18.
+		\task Addiere das Produkt von 23 und 45 mit der Differenz von 100 und 3.
+	\end{tasks}
+\end{enumerate}
+\end{document}

@@ -1,0 +1,46 @@
+[basics]
+Klasse = KLASSE
+Fach = FACH
+# Die gängigen Kategorien sind: schriftlich, muendlich (KEINE UMLAUTE), heft
+# Sie fassen die einzelnen Arten von Noten in Gruppen zusammen.
+Kategorien = schriftlich, muendlich
+
+[arten]
+# Jede Kategorie hat Arten der Notenerhebung (z.B. kann sich die schriftliche
+# Note aus Tests und Arbeiten zusammensetzen)
+# Hier muss zu jeder vorkommenden Art angegeben werden, zu welche Kategorie sie
+# gehört. Auch die muendliche Note muss sich aus einer Art zusammensetzen.
+arbeit = schriftlich
+gfs = schriftlich
+monat = muendlich
+# Wenn Tests geschrieben werden sollen verwende folgende Zeile:
+# test = schriftlich
+
+[bewertungsart]
+# Zu den Bewertungsarten muss angegeben werden, ob jede Art (e)inzeln zähl,
+# oder ob aus allen Noten dieser art eine (g)emeinsame Note erstellt wird.
+# Grundlegend immer e wählen, außer man hat eine Regelung wie: "alle Tests
+# zählen wie eine Arbeit.
+arbeit = e
+monat = e
+gfs = e
+# Wenn Tests geschrieben werden sollen verwende folgende Zeile:
+# test = g
+
+[wichtung]
+# Zu jeder Kategorie muss angegeben werden, wie sie gewichtet ist. Diese
+# Wichtung wird erst berücksichtigt, wenn die Noten der einzelnen Kategorien
+# verwendet wurde
+schriftlich = 2
+muendlich = 1
+
+# Zu jeder Art muss angegeben werden, wie sie innerhalb ihrer Kategorie
+# gewichtet wird.
+arbeit = 1
+monat = 1
+gfs = 1
+# Wenn Tests geschrieben werden sollen verwende folgende Zeile:
+# test = 1
+
+[noten]
+skala=6

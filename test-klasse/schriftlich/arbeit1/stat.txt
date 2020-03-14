@@ -1,0 +1,6 @@
+Minimum  1.25
+u. Quar. 1.25
+Median   1.75
+Schnitt  1.72
+o. Quar. 2.12
+Maximum  2.5

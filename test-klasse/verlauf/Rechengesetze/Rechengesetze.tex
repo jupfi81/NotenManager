@@ -1,0 +1,225 @@
+% chktex-file 44
+% chktex-file 36
+% {{{ Praeamble
+\documentclass[parskip=half-,a4paper]{scrartcl} % {{{ documentclass
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+% }}}
+% {{{ Seitenränder und Zeilenabstand
+\usepackage{geometry}
+\geometry{left=1.5cm, right=1.5cm, top=2cm, bottom=1.5cm}
+%\usepackage[onehalfspacing]{setspace}
+% }}}
+% {{{ Mathepakete
+\usepackage{mathtools}
+\usepackage{eurosym}
+\usepackage{siunitx}
+\sisetup{locale=DE, per-mode=symbol}
+\DeclareSIUnit{\sieuro}{\mbox{\euro}}
+\usepackage{ziffer}
+\usepackage{tasks}
+% }}}
+% {{{ Grafikpakete
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{xcolor}
+\newcommand{\red}[1]{{\color{red}#1}}
+\newcommand{\green}[1]{{\color{green}#1}}
+\newcommand{\blue}[1]{{\color{blue}#1}}
+\newcommand{\orange}[1]{{\color{orange}#1}}
+% }}}
+% {{{ Tabellenpakete
+\usepackage{tabularx}
+\usepackage{booktabs}
+% }}}
+% {{{ Kopf- und Fußzeile
+\pagestyle{empty}
+% }}}
+% }}}
+\begin{document}
+\section{Kommutativ- und Assoziativgesetz}
+\subsection{Regelheft}
+
+\begin{tasks}
+	\task \textbf{Kommutativgesetz bei Summen (KG+)}
+
+	Kommen in einem Rechenausdruck nur Pluszeichen vor, darf beliebig getauscht
+	werden.
+
+	Beispiel: $13+62+87 = 13+87+62 = 100 + 62 = 162$
+	%
+	\task \textbf{Assoziativgesetz bei Summen (AG+)}
+
+	Kommen in einem Rechenausdruck nur Pluszeichen vor, dürfen Klammern beliebig
+	gesetzt und weggelassen werden.
+
+	Beispiel: $24+(74+71) = (24+76)+71 = 100 + 71 = 171$
+	%
+	\task \textbf{Kommutativgesetz bei Produkten (KG$\cdot$)}
+
+	Kommen in einem Rechenausdruck nur Malzeichen vor, darf beliebig getauscht
+	werden.
+
+	Beispiel: $4\cdot 13 \cdot 5= 4 \cdot 5 \cdot 13 = 20 \cdot 13 = 260$
+	%
+	\task \textbf{Assoziativgesetz bei Produkten (AG$\cdot$)}
+
+	Kommen in einem Rechenausdruck nur Malzeichen vor, dürfen Klammern beliebig
+	gesetzt oder weggelassen werden.
+
+	Beispiel: $2\cdot (5 \cdot 135)=(2\cdot 5)\cdot 135 = 10\cdot 135 =1350$
+\end{tasks}
+
+\textbf{\large Vorsicht!}
+
+Die obigen Rechengesetze gelten nicht, wenn Minuszeichen oder Geteiltzeichen
+vorkommen.
+\begin{itemize}
+	\item $23-7+3=19$ aber $23-3+7=27$
+	\item $23-(3+7)=23-10=13$ aber $(23-3)+7=20+7=27$
+	\item $12:4\cdot 3 = 3 \cdot 3 = 9$ aber $12 : 3 \cdot 4 = 4 \cdot 4 = 16$
+	\item $12:(4 \cdot 3) = 12 : 12 = 1$ aber $(12:4)\cdot 3 = 3\cdot 3 = 9$
+\end{itemize}
+
+\begin{tasks}
+	\task \textbf{Plus- und Minusglieder zusammenfassen}
+
+		Kommen Plus- und Minuszeichen vor, kann man die Plusglieder in einer Klammer
+		und die Minusglieder in einer anderen Klammer sammeln.
+
+		Beispiel: $\blue{30}-\red{19}-\red{3}+\blue{8}-\red{4} =
+		(\blue{30}+\blue{8})-(\red{19}+\red{3}+\red{4})= \blue{38}-\red{26}=12$
+\end{tasks}
+
+\subsection{Ablauf}
+
+\begin{itemize}
+	\item Den Regelheftaufschrieb nachtragen.
+	\item Übungsaufgaben rechnen: S. 107/6adg, 10abc, 12
+\end{itemize}
+
+\section{Distributivgesetz}
+\subsection{Regelheft}
+\subsubsection{Ausmultiplizieren}
+$\red{3}\cdot (20+4) = \red{3}\cdot 20 + \red{3} \cdot 4$
+
+$7\cdot (100-3) = 7\cdot 100 - 7 \cdot 3$
+
+Anstatt die Klammer zuerst zu berechnen, kann man auch jeden Summanden mit dem
+Faktor vor der Klammer multiplizieren und die Ergebnisse addieren.
+
+\subsubsection{Ausklammern}
+$\red{13}\cdot 7 + \red{13} \cdot 3$
+
+Anstatt erst die Produkte zu berechnen, kann man zuerst den gemeinsamen Faktor
+vor die Klammer schreiben. Dann wird die Klammer berechnet und dann
+multipliziert.
+
+\subsection{Verlauf}
+\begin{itemize}
+	\item Einstiegstext aus dem Buch lesen.
+	\item Übungen S. 110/1abc, 4abc (6 Minuten)
+	\item Übungens S. 111/11, 13, 15, 17, 21 (Selbstkontrolle)
+\end{itemize}
+
+\newpage
+\section{Potenzen}
+\subsection{Regelheft}
+
+\begin{align*}
+	\text{Potenz: } 5^3=3\cdot3\cdot3\cdot3\cdot3
+\end{align*}
+$5$ ist die Basis/Grundwert und $3$ ist die Hochzahl/Exponent
+\begin{itemize}
+	\item 10er Potenzen: Potenzen Mit Grundwert 10
+		($10^2=100,~10^3=1000,~10^6=1000000$ also eine eins mit 6 Nullen)
+	\item Quadratzahlen: Potenzen mit Exponent 2 ($2^2=4,~4^2=16,~18^2=324$)
+	\item Kubikzahlen: Potenzen mit Exponent 3 ($2^3=8,~3^3=27,~5^3=125$)
+	\item Rechenreihenfolge: Hoch vor Klammer vor Punkt vor Strich
+		(\textbf{K}l\textbf{a}mmer vor \textbf{Ho}chzahl vor \textbf{P}unkt vor
+		\textbf{S}trich $\to$ KaHops (Känguru hopst))
+\end{itemize}
+\subsection{Verlauf}
+\begin{itemize}
+	\item Einstieg:
+	\begin{itemize}
+		\item Das Eichhörnchen Peter sammelt jeden Tag 3 Nüsse mehr, als am Tag davor.
+
+		\begin{tabular}{ccccc}
+			1. Tag & 2. Tag & 3. Tag & 4. Tag & 5. Tag \\
+			3 & 3+3 & 3+3+3 & 3+3+3+3 & $\underbrace{3+3+3+3+3}_{\text{5 3er werden
+			addiert}} = 5 \cdot 3$
+		\end{tabular}
+
+		\item Das Eichhörnchen Clara sammelt jeden Tag dreimal soviele Nüsse, wie am Tag davor.
+
+		\begin{tabular}{ccccc}
+			1. Tag & 2. Tag & 3. Tag & 4. Tag & 5. Tag \\
+			3 & $3\cdot3$ & $3\cdot3\cdot3$ & $3\cdot3\cdot3 \cdot3$ & $\underbrace{3\cdot3\cdot3\cdot3\cdot3}_{\text{5 3er werden
+			multipliziert}} = 3^5$
+		\end{tabular}
+\end{itemize}
+	\item Regelheftaufschrieb Potenzen
+	\item einfache Übungsaufgaben (S. 114; 1,2)
+	\item Begriffe einführen:
+		\begin{itemize}
+			\item Quadratzahlen wiederholen (kennt ihr ja schon)
+			\item 10er-Potenzen (berechne $10^2$, $10^2$, $10^5$, $10^2$)
+		\end{itemize}
+	\item einfache Übungsaufgaben + Rechenreihenfolge besprechen:
+		(\textbf{K}l\textbf{a}mmer vor \textbf{Ho}chzahl vor \textbf{P}unkt vor
+		\textbf{S}trich $\to$ KaHops (Känguru hopst))
+	\item längere Übungsaufgaben
+\end{itemize}
+\section{Teilbarkeitsregeln}
+\subsection{Regelheft}
+\subsubsection{Teilbarkeit}
+6 ist ein Teiler von 4, da
+\begin{itemize}
+	\item 24 durch 6 ohne Rest teilen kann.
+	\item 24 ein Vielfaches von 6 ist.
+\end{itemize}
+Die Teiler von 24: $24 = 1\cdot 24 = 2 \cdot 12 = 3 \cdot 8 = 4\cdot 6$ Die
+Teiler sind
+$1;~2;~3;~4;~6;~8;~12;~24$\\
+Die Vielfachen von 26 kleiner als 200:
+$1\cdot 26 = 26;~2\cdot 26 = 52;~ 3\cdot 26=78;~4\cdot 26=108$
+
+\subsubsection{Endstellenregel}
+\begin{enumerate}
+	\item Eine Zahl ist durch 10 teilbar, wenn ihre letzte Ziffer eine 0 ist.
+		\begin{align*}
+			23650 = 2365\cdot 10
+		\end{align*}
+	\item Eine Zahl ist durch 10 teilbar, wenn ihre letzte Ziffer eine 0 oder 5
+		ist,
+		\begin{align*}
+			23650=(2365\cdot 2) \cdot 5
+			\qquad
+			23455 = (2345\cdot 2 + 1)\cdot 5
+		\end{align*}
+	\item Eine Zahl ist durch 2 teilbar, wenn sie die Endziffer 0, 2, 4, 6 oder 8
+		hat.
+		\begin{align*}
+			4572 = 457 \cdot 10 + 2 = 
+		\end{align*}
+	\item Eine Zahl ist durch 4 teilbar, wenn ihre letzten beiden Ziffern durch 4
+		teilbar sind.
+	\item Eine Zahl ist durch 8 teilbar, wenn ihre letzten drei Ziffern durch 8
+		teilbar sind.
+\end{enumerate}
+\subsection{Verlauf}
+\begin{itemize}
+	\item Regelhefteintrag \emph{Teilbarkeit} erarbeiten
+	\item S.117/2,3,4
+	\item 10 1-Cent Münzen auf den Tisch legen --- wie kann man die auf 3 Leute
+		verteilen?
+	\item Wie viele bleiben bei 40, 80, 70, 72, 64, 45 übrig?
+	\item Und jetzt mit 1457 (mit Geld hinlegen)
+	\item Quersummenregel festhalten (Regelheft).
+	\item Restliche Übungsaufgaben.
+	\item Eventuell noch Primzahlen einführen (Sieb von keine Ahnung wem), dann
+		die Primfaktorzerlegung.
+\end{itemize}
+\end{document}

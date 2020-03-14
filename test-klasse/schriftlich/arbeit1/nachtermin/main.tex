@@ -1,0 +1,41 @@
+% chktex-file 18
+% {{{ Praeamble
+\documentclass[full-,a4paper,A,NurAntworten]{KA} % {{{ documentclass
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{lmodern}
+\usepackage{microtype}
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage{tasks}
+\settasks{after-item-skip=-6pt}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.15}
+\usepackage{mathtools}
+\usepackage{siunitx}
+\usepackage{tabularx}
+\usepackage{pythontex}
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+% }}}
+\settitle{1. Klassenarbeit (nach)}
+\setdate{05.12.2019}
+\setklasse{5}
+\newcommand{\Rom}[1]{%
+	\ifnum#1<1
+		\ifnum#1=0
+			o%
+		\else
+		-\MakeUppercase{\romannumeral-#1}%
+		\fi
+	\else
+		\MakeUppercase{\romannumeral#1}%
+	\fi}
+% }}}
+\begin{document}
+\input{RomZahl}
+\input{Zahlenstrahl}
+\input{Zehnersystem}
+\end{document}

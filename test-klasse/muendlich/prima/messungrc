@@ -1,0 +1,7 @@
+[basics]
+art=quartal
+nummer=prima
+datum=20.01.2020
+
+[noten]
+ort=noten.csv

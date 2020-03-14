@@ -1,0 +1,418 @@
+From 201911031503082646d3e31a9f416e872832837bb0p0eu@bounces.amazon.de Sun Nov  3 16:03:09 2019
+Return-Path: <201911031503082646d3e31a9f416e872832837bb0p0eu@bounces.amazon.de>
+Received: from a1-45.smtp-out.eu-west-1.amazonses.com ([54.240.1.45]) by
+ mx-ha.gmx.net (mxgmx014 [212.227.15.9]) with ESMTPS (Nemesis) id
+ 1MLxr9-1ij5PI2jVR-00HzJd for <aclaessens@gmx.de>; Sun, 03 Nov 2019 16:03:09
+ +0100
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=oh3t3hujtzjgoyk4jpthyrvrimucwqwq; d=amazon.de; t=1572793389;
+	h=From:To:Message-ID:Subject:MIME-Version:Content-Type:Date;
+	bh=f5UyOA05LhCwZ4oSlrZv4dVh19iQpQjfbE4ImVZ8w/g=;
+	b=Kf5TI6uFVzy7HY7yMm/NGOSNW/0mQxHRjK7XtVWOfPRdZRv9QveuMM/K3J88Keft
+	Sa5ZiIZ2OO7IB3BSgIAs5/9b/0QP1qR+tav9iGoOcXby6p+pf3KOTdcvP2AjkpUYQQp
+	43N57XBTuUbpZzuLdi01L/TsFMxEFiNJPOUBWMZQ=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=ihchhvubuqgjsxyuhssfvqohv7z3u4hn; d=amazonses.com; t=1572793389;
+	h=From:To:Message-ID:Subject:MIME-Version:Content-Type:Date:Feedback-ID;
+	bh=f5UyOA05LhCwZ4oSlrZv4dVh19iQpQjfbE4ImVZ8w/g=;
+	b=AOBmyzm7DzaLKABsIlJEZv+bCWICFM1MkdPpM5JUelrMO+x67V1v7muBvRTia+UD
+	i0lVLWkspty9+dN2QNBFslJm2o9Uh4nWlnrnScMouY86NU6NqTBZv1TvYKVpRNyZNfA
+	eJLNY8CJjcMdmAJsQv+N4Qyc47xBj64SBf9E86hs=
+From: "rueckgabe@amazon.de" <rueckgabe@amazon.de>
+To: aclaessens@gmx.de
+Message-ID: <0102016e31ca90e9-4435469d-e37a-406d-ae10-8f16fed43366-000000@eu-west-1.amazonses.com>
+Subject: =?UTF-8?B?SWhyZSBSw7xja3NlbmR1bmcgdm9uICBCZWVE?=
+ =?UTF-8?B?ZWVzIERhbWVuIEJIIChPaG5lIELDvGdlbC4uLg==?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_10586023_1741125017.1572793389283"
+X-AMAZON-MAIL-RELAY-TYPE: notification
+Bounces-to: 201911031503082646d3e31a9f416e872832837bb0p0eu@bounces.amazon.de
+X-AMAZON-METADATA: CA=C2HGAM16L26P0B-CU=AKHN75JO2W9LX
+X-Original-MessageID: <urn.rtn.msg.201911031503082646d3e31a9f416e872832837bb0p0eu@1572793389284.rtn-svc-eu-back-c42xl1b-2912dacf.eu-west-1.amazon.com>
+Date: Sun, 3 Nov 2019 15:03:09 +0000
+X-SES-Outgoing: 2019.11.03-54.240.1.45
+Feedback-ID: 1.eu-west-1.UIAUrMfbpGrxavqnRE0yoZrAUBI9C7GRNUx/kUDo6B4=:AmazonSES
+Envelope-To: <aclaessens@gmx.de>
+X-GMX-Antispam: 0 (Mail was not recognized as spam); Detail=V3;
+X-Spam-Flag: NO
+X-UI-Filterresults: notjunk:1;V03:K0:qYZelFAYbhw=:axkLjdE/N3ChCxFyfsoo4XdMUj
+ 84WbVGqyIpFVyk/QIe2xMyl8FbUWjrjvc7hoKjsPcGzpPh+g3Bpzzums/XNeoxTNWbWkQ2ZDz
+ /vcyLlMhjjTvPS2WxZH09RNnF39ioAVNGsOhnHJ2ipB22Zq6Dm1Xwxn2Y4i8n5QE6NwMYQ4Fp
+ jpdLoUBZdLYPYc23AbVvEL8YL0f6zwqWb8wjvJRX9HRQR21gzI1mn5UCSD6EZanfnR7JciIBX
+ nZ46nRrdgHmrjAPzgmFjpVU4nL17zNLCwxAn2brr4cimUKPExupD332jELeDXI4bCHfK4ZdnG
+ SgatZB0cPldDPKXBqzMMoHtDaRn2sFowIlq1vlikygAyJ9GRWhTsG91W8bilwhxJiD7vxfiYR
+ 0q8FHhVXwuH2CJpF43hdVPjta1E9pAFMFJf+Hx2T4hZf7C8NR++QaSVNsic1Ogw06bEgAUPJQ
+ qrayEerfSCtTjqgJVCc88mSGQtAdaQMxmMRiSHbwKEkgSVrnWbYLcn/LusQ1R0MG2FG1TjpRT
+ Xu41glDWH7BMhvBAdIzBRADxvepx6NSYLCYRKFygloJm1m1CrHpfybZuLREmfD4sxUJUYepFj
+ wKtaMSI96nUV8ts+Qb91H4G5QF0ZMkkmN1sqnwTxNjQdC/1pL58M/FdgpHoZw4CD1HDX83d60
+ LJm6xp5w3uJ8rNK+Swm7xjNuXb7rrkWZpwb+QMvJJQbD6JKpL56x6bp6Rh7pzGiEKC4TFBvJd
+ qHzjEFZCnw8ILtBHuZy3wYBlnYXNnRKOzI9Pz+UBq39UubjujE3NISgWtOK1PL5XUXDOFkVNr
+ TZRV2+ewqNvLWtYN/KKO66zf68gEuvEDzLsNH58pF0yNZoeSJtckWAH4MBxHV388d+HDhp5F0
+ az8lWT97lRjJBaPQ9jjmAJmVaalyKvFo3pVxGXtb/OmPuJwEzJ1SU6P5ZDcFOMPHqz9m0thsW
+ athbGMnczi38+94hr1uvK2qS5hK7c/Hoe09BqBLvQc6FlaNnS3ALS8UPPsBXzW1eJx6geCfwd
+ orF6pNkveGGIAzQ2ml0bQo1kiQNaP8WtwtzYNvyI+fF5q7cUN769SCuy3RUgdwwDU3ueNNa0m
+ dx1JCEzQD9np1+PL+Wtbu3XWmUA//dW+cvGpI5uEttVfropBEDF6OuUCZA0ouZRh+L/8Gx9Fy
+ GiCeCiN7dc3zSaeO335FnoVHkC+6oQMlMFHtjyCOjkd34SsLUUXJzCoCrqHaM66yyLSGgo0s2
+ 6EJMPuVS6DOWKb+9TCZb7IZkXkw6plevNyqtyqmudVeRFD7ol59AIhbuoKAz9C6D/W9kSx2Eg
+ cg2Gh+LtMuSTEstAkkiquYzdQVB//6ooYWPQFyqxHBAZztIn5hMRM0xqtydUuQQlcfF2mNgFu
+ +ncvIc9pAG/slQFtNntiICKdjqQB8t6rbAmt3/S6VTuKAsFU1vYt/jNdJ04g6UMWCjLE8jzsB
+ +E2eUyNXqYIqyTeFzAhv+O90rLlWwiW2vbfiJ5Wr/QhGUqsDzgv6985GEBaeAov3fkDU6M558
+ i4Vgkk12r7OJx7G0ALVir9KnujzrRu1rzm+x/y+7qxy2PWRFvSaxpHYXSsyEwOqBMYy1kD1b7
+ fZykJZcHH312uhF4AXDa9oIG/eSLd2dxByhuPlLmma6LVOwa1sB3vMyMkt/HnLMDzBdSqvrX9
+ RGpr1bDmkI5YvVorq4XuRuEKN32QxgcVn7ULBJK6s19RRV1Gah8eJOJIhLutaqPAS+LW2fnds
+ rQ7kNhd2O43caBTBCddMi/aWRvMMay33nQDMWDNMOVsgFJEhvV4ZdtZkt57T4Tj1WEmCylhdP
+ MUPsAzYGr3HdPHyNkJi7s6e8odDTjbRQ27VsfkIGgYEQrSmY=
+Status: RO
+Content-Length: 14052
+Lines: 348
+
+------=_Part_10586023_1741125017.1572793389283
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Guten Tag,
+
+vielen Dank daf=C3=BCr, dass Sie unser R=C3=BCcksendezentrum nutzen. Sobald=
+ Jansen Fashion Group Ihre R=C3=BCcksendung erhalten hat, veranlassen wir e=
+ine Erstattung auf die verwendete Zahlungsart.
+
+Etikett und Anleitung drucken:
+https://www.amazon.de/spr/returns/label/246337bf-0f7d-4c52-bf72-be0f8a323bb=
+0?rmaId=3DDywM42qfRRMA&ref_=3DE_Label_Page
+
+Status der R=C3=BCcksendung/Erstattung:
+https://www.amazon.de/spr/returns/cart?orderId=3D306-0128627-5749120&ref_=
+=3DE_RRT_status
+
+R=C3=BCcksendemethode:
+  Selbstfrankierte R=C3=BCcksendung
+
+Artikeldetails:
+- BeeDees Damen BH (Ohne B=C3=BCgel...
+
+
+Dies ist eine automatisch versendete E-Mail. Bitte antworten Sie nicht auf =
+dieses Schreiben, da die E-Mail-Adresse nur zum Versenden, nicht aber zum E=
+mpfang von E-Mails eingerichtet ist.
+------=_Part_10586023_1741125017.1572793389283
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+ <head>=20
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8" =
+/>=20
+  <style type=3D"text/css">
+
+
+
+#container {
+=09width:500px;
+=09margin:0 auto;
+ =09padding: 20px 8px 10px 8px;      =20
+}
+
+
+.link {
+    color:#0066C0;
+    text-decoration:none;
+}
+
+/* content tables */
+#main, #header,#summary,#buttons,#criticalInfo,#itemDetails,#refundDetails =
+{
+=09width:100%;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:#111111;
+
+}
+
+p {
+=09margin:1px 0px 8px 0px;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:#111111;
+
+}
+
+
+
+
+#title {
+text-align:right;
+colur:#333333;
+font-weight:bold;
+text-align: right;
+font-family: "Roboto", "Helvetica Neue","Helvetica" , "Arial" , "sans-serif=
+" ;
+line-height: 27px;
+font-size: 21px;
+}
+
+h3 {
+text-align:right;
+colur:#333333;
+font-weight:bold;
+text-align: right;
+font-family: "Roboto", "Helvetica Neue","Helvetica" , "Arial" , "sans-serif=
+" ;
+line-height: 27px;
+font-size: 21px;
+}
+
+#legalCopy
+{
+font-family: "Roboto", "Helvetica Neue","Helvetica" , "Arial" , "sans-serif=
+" ;
+font-weight: 400;
+font-style: normal;
+font-size: 13px;
+color: #AAAAAA;
+line-height: 16px;
+}
+
+#legalCopy p {
+=09font-family: "Roboto", "Helvetica Neue","Helvetica" , "Arial" , "sans-se=
+rif" ;
+=09font-size: 13px;
+=09color:#666;
+=09line-height:16px;
+=09margin:0 0 10px 0;
+}
+
+#b2bLinks
+{
+=09width : 484px;
+=09font-family: "Roboto", "Helvetica Neue","Helvetica" , "Arial" , "sans-se=
+rif" ;
+=09font-style: normal;
+=09font-size: 13px;
+    margin: 0px 0px 0px 0px;
+}
+
+</style>=20
+  <title></title>=20
+ </head>=20
+ <body><img width=3D"1" height=3D"1" src=3D"https://www.amazon.de/gp/r.html=
+?C=3D2LLPPUPV7VLWX&K=3DIVS6IGI020N7&M=3Durn:rtn:msg:201911031503082646d3e31=
+a9f416e872832837bb0p0eu&R=3D3RWC9FOAUPCRH&T=3DO&U=3Dhttps%3A%2F%2Fimages-eu=
+.ssl-images-amazon.com%2Fimages%2FG%2F01%2Fnav%2Ftransp.gif&H=3DFJSS04YJXZG=
+PUVHOJ9SUT4KA3UMA&ref_=3Dpe_2105091_80804451_opens" />=20
+  <table id=3D"container" style=3D"border: 1px solid rgb(221, 221, 221); al=
+ign: center; width: 484px; margin: 0 auto; padding: 20px 8px 10px 8px">=20
+   <tbody>
+    <tr>=20
+     <td class=3D"frame">=20
+      <table id=3D"main" style=3D"width: 484px; font-size: 14px; line-heigh=
+t: 18px; font-family: &quot;Roboto&quot;, &quot;Helvetica Neue&quot;, Helve=
+tica, Arial, sans-serif; color: rgb(17, 17, 17)">=20
+       <!-- Header section starts -->=20
+       <tbody>
+        <tr>=20
+         <td>=20
+          <table id=3D"header" style=3D"border-bottom: 1px solid rgb(221, 2=
+21, 221); padding: 0px 0px 3px 0px; width: 100%; font-size: 14px; line-heig=
+ht: 18px; font-family: &quot;Roboto&quot;, &quot;Helvetica Neue&quot;, Helv=
+etica, Arial, sans-serif; color: rgb(17, 17, 17)">=20
+           <tbody>
+            <tr>=20
+             <td width=3D"150px" id=3D"logo"> <a href=3D"https://www.amazon=
+.de/gp/r.html?C=3D2LLPPUPV7VLWX&K=3DIVS6IGI020N7&M=3Durn:rtn:msg:2019110315=
+03082646d3e31a9f416e872832837bb0p0eu&R=3D29O70ZO6WLVBG&T=3DC&U=3Dhttps%3A%2=
+F%2Fwww.amazon.de%3Fref_%3Dpe_2105091_80804451_E_Amazon_Logo&H=3D9TL3OSHXZP=
+29Y33S5PTNAISIIBKA&ref_=3Dpe_2105091_80804451_E_Amazon_Logo" title=3D"Visit=
+ Amazon.de"> <img id=3D"amazonLogo" alt=3D"Amazon" src=3D"http://g-ec2.imag=
+es-amazon.com/images/G/01/abis-ui/merchants/amazon.de" /> </a> </td>=20
+             <td width=3D"350px" id=3D"title" padding-left=3D"10" style=3D"=
+text-align: right; colur: rgb(51, 51, 51); font-weight: bold; font-family: =
+&quot;Roboto&quot;, &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, &quo=
+t;Arial&quot;, &quot;sans-serif&quot;; line-height: 27px; font-size: 21px">=
+ <h3 style=3D"text-align: right; colur: rgb(51, 51, 51); font-weight: bold;=
+ font-family: &quot;Roboto&quot;, &quot;Helvetica Neue&quot;, &quot;Helveti=
+ca&quot;, &quot;Arial&quot;, &quot;sans-serif&quot;; line-height: 27px; fon=
+t-size: 21px"> Zusammenfassung der R&uuml;cksendung </h3> </td>=20
+            </tr>=20
+           </tbody>
+          </table> </td>=20
+        </tr>=20
+        <!-- Header section ends-->=20
+        <!-- Body_section  starts-->=20
+        <tr>=20
+         <td>=20
+          <table id=3D"summary" style=3D"padding: 12px 0px 0px 0px; width: =
+100%; font-size: 14px; line-height: 18px; font-family: &quot;Roboto&quot;, =
+&quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(17, 17=
+, 17)">=20
+           <tbody>
+            <tr>=20
+             <td> <b> <span style=3D"font-size:16px; line-height: 21px;"> G=
+uten Tag, </span> </b> <p style=3D"margin: 1px 0px 8px 0px; font-size: 14px=
+; line-height: 18px; font-family: &quot;Roboto&quot;, &quot;Helvetica Neue&=
+quot;, Helvetica, Arial, sans-serif; color: rgb(17, 17, 17)">vielen Dank da=
+f&uuml;r, dass Sie unser R&uuml;cksendezentrum nutzen. Sobald Jansen Fashio=
+n Group Ihre R&uuml;cksendung erhalten hat, veranlassen wir eine Erstattung=
+ auf die verwendete Zahlungsart.</p> </td>=20
+            </tr>=20
+           </tbody>
+          </table> </td>
+        </tr>=20
+        <tr>=20
+         <td>=20
+          <table id=3D"buttons" style=3D"margin-bottom: 10px; width: 100%; =
+font-size: 14px; line-height: 18px; font-family: &quot;Roboto&quot;, &quot;=
+Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(17, 17, 17)"=
+>=20
+           <tbody>
+            <tr>=20
+             <td style=3D" margin: 0 0 40px 0;">=20
+              <table align=3D"left" cellspacing=3D"0" cellpadding=3D"0" sty=
+le=3D"margin-right:32px; padding-top: 2px;">=20
+               <tbody>
+                <tr>=20
+                 <td align=3D"center" vertical-align=3D"bottom" width=3D"22=
+0" height=3D"44" style=3D" background: linear-gradient(#F7DFA5 , #F0C14B); =
+ -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;=
+=20
+background-color: #F0C14B;=20
+ line-height:18px; font-size:14px; border-bottom-color: #ff0000;"> <a href=
+=3D"https://www.amazon.de/gp/r.html?C=3D2LLPPUPV7VLWX&K=3DIVS6IGI020N7&M=3D=
+urn:rtn:msg:201911031503082646d3e31a9f416e872832837bb0p0eu&R=3D35O86XB2R382=
+2&T=3DC&U=3Dhttps%3A%2F%2Fwww.amazon.de%2Fspr%2Freturns%2Flabel%2F246337bf-=
+0f7d-4c52-bf72-be0f8a323bb0%3FrmaId%3DDywM42qfRRMA%26ref_%3Dpe_2105091_8080=
+4451_E_Label_Page&H=3D9XZIEM5CZSOEAHFSRUX9JKWDTIWA&ref_=3Dpe_2105091_808044=
+51_E_Label_Page" style=3D"padding: 13px 0px;  font-family: Helvetica, Arial=
+, sans-serif; text-decoration: none;  width:100%; display:inline-block    "=
+> <span style=3D"color: #111">Etikett und Anleitung drucken</span> </a> </t=
+d>=20
+                </tr>=20
+               </tbody>
+              </table>=20
+              <table cellspacing=3D"0" cellpadding=3D"0" style=3D"padding-t=
+op: 2px;">=20
+               <tbody>
+                <tr>=20
+                 <td align=3D"center" nowrap=3D"" vertical-align=3D"bottom"=
+ width=3D"220" height=3D"44" style=3D"background: linear-gradient(#F7F8FA  =
+, #E7E9EC);  -webkit-border-radius: 3px; -moz-border-radius: 3px; border-ra=
+dius: 3px;
+background-color: #E7E9EC; line-height:18px; font-size:14px; border-bottom-=
+color: #ff0000;"> <a href=3D"https://www.amazon.de/gp/r.html?C=3D2LLPPUPV7V=
+LWX&K=3DIVS6IGI020N7&M=3Durn:rtn:msg:201911031503082646d3e31a9f416e87283283=
+7bb0p0eu&R=3D1TZKW05FNUPB8&T=3DC&U=3Dhttps%3A%2F%2Fwww.amazon.de%2Fspr%2Fre=
+turns%2Fcart%3ForderId%3D306-0128627-5749120%26ref_%3Dpe_2105091_80804451_E=
+_RRT_status&H=3DZRV4ME4Y3N3OZ7M4XTS6GK1WMHSA&ref_=3Dpe_2105091_80804451_E_R=
+RT_status" style=3D"padding: 13px 0px; font-family: Helvetica, Arial, sans-=
+serif; text-decoration: none;  width:100%; display:inline-block    "> <span=
+ style=3D"color: #111">Status der R&uuml;cksendung/Erstattung</span> </a> <=
+/td>=20
+                </tr>=20
+               </tbody>
+              </table> </td>=20
+            </tr>=20
+           </tbody>
+          </table> </td>=20
+        </tr>=20
+        <tr>=20
+         <td>=20
+          <table style=3D"border: 1px solid #DDDDDD; padding: 14px 14px 5px=
+ 14px; width:484; margin-bottom:8px;">=20
+           <tbody>
+            <tr>=20
+             <td>=20
+              <table id=3D"criticalInfo" style=3D"background-color: rgb(239=
+, 239, 239); width: 100%; font-size: 14px; line-height: 18px; font-family: =
+&quot;Roboto&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-seri=
+f; color: rgb(17, 17, 17)">=20
+               <tbody>
+                <tr>=20
+                 <td width=3D"242px" style=3D"padding: 14px 14px 14px 14px;=
+ text-align: left !important;"> <span style=3D"color:#767676"> R&uuml;cksen=
+demethode: </span> <b> Selbstfrankierte R&uuml;cksendung </b> </td>=20
+                 <td width=3D"242px" align=3D"left" style=3D"padding: 14px =
+14px 14px 14px; vertical-align: top;"></td>=20
+                </tr>=20
+               </tbody>
+              </table> </td>=20
+            </tr>=20
+            <tr>=20
+             <td>=20
+              <table id=3D"itemDetails" style=3D"padding: 10px 0px 4px 0px;=
+ width: 100%; font-size: 14px; line-height: 18px; font-family: &quot;Roboto=
+&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rg=
+b(17, 17, 17)">=20
+               <tbody>
+                <tr>=20
+                 <td width=3D"30%" height=3D"74" vertical-align=3D"middle" =
+align=3D"center"> <a href=3D"https://www.amazon.de/gp/r.html?C=3D2LLPPUPV7V=
+LWX&K=3DIVS6IGI020N7&M=3Durn:rtn:msg:201911031503082646d3e31a9f416e87283283=
+7bb0p0eu&R=3D18NFBZJ6BYLO5&T=3DC&U=3Dhttps%3A%2F%2Fwww.amazon.de%2Fgp%2Fpro=
+duct%2FB000WBQXVC%3Fref_%3Dpe_2105091_80804451_E_Asin_Img&H=3D5EHEVN5PCLYQD=
+QLSTS2QGYSSSPUA&ref_=3Dpe_2105091_80804451_E_Asin_Img" style=3D"text-decora=
+tion:none;"><img src=3D"https://images-na.ssl-images-amazon.com/images/I/41=
+z+h+vVvmL._SCLZZZZZZZ__SY74_SX74_.jpg" style=3D"margin-bottom: 10px; max-wi=
+dth=3D74px; max-height: 74px;" /></a> </td>=20
+                 <td width=3D"70%" style=3D"text-decoration: none !importan=
+t;"> <a href=3D"https://www.amazon.de/gp/r.html?C=3D2LLPPUPV7VLWX&K=3DIVS6I=
+GI020N7&M=3Durn:rtn:msg:201911031503082646d3e31a9f416e872832837bb0p0eu&R=3D=
+UTUI1V4E9W9N&T=3DC&U=3Dhttps%3A%2F%2Fwww.amazon.de%2Fgp%2Fproduct%2FB000WBQ=
+XVC%3Fref_%3Dpe_2105091_80804451_E_Asin_Title&H=3DDOMUMYJW3SAE4PBZDA8V7ETDO=
+AUA&ref_=3Dpe_2105091_80804451_E_Asin_Title" style=3D"text-decoration: none=
+;  display:inline-block;"><span style=3D"color: #0066C0">BeeDees Damen BH (=
+Ohne B&uuml;gel...</span></a> </td>=20
+                </tr>=20
+               </tbody>
+              </table> </td>=20
+            </tr>=20
+            <tr>=20
+             <td> </td>=20
+            </tr>=20
+           </tbody>
+          </table> </td>=20
+        </tr>=20
+        <!-- body_section  ends-->=20
+        <!-- bottom section  starts-->=20
+        <tr>=20
+         <td>=20
+          <table id=3D"legalCopy" style=3D"margin: 0px 0px 0px 0px; font-fa=
+mily: &quot;Roboto&quot;, &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;=
+, &quot;Arial&quot;, &quot;sans-serif&quot;; font-weight: 400; font-style: =
+normal; font-size: 13px; color: rgb(170, 170, 170); line-height: 16px">=20
+           <tbody>
+            <tr>=20
+             <td> <p style=3D"font-family: &quot;Roboto&quot;, &quot;Helvet=
+ica Neue&quot;, &quot;Helvetica&quot;, &quot;Arial&quot;, &quot;sans-serif&=
+quot;; font-size: 13px; color: rgb(102, 102, 102); line-height: 16px; margi=
+n: 0 0 10px 0"> </p> <p style=3D"font-family: &quot;Roboto&quot;, &quot;Hel=
+vetica Neue&quot;, &quot;Helvetica&quot;, &quot;Arial&quot;, &quot;sans-ser=
+if&quot;; font-size: 13px; color: rgb(102, 102, 102); line-height: 16px; ma=
+rgin: 0 0 10px 0"> </p><p style=3D"font-family: &quot;Roboto&quot;, &quot;H=
+elvetica Neue&quot;, &quot;Helvetica&quot;, &quot;Arial&quot;, &quot;sans-s=
+erif&quot;; font-size: 13px; color: rgb(102, 102, 102); line-height: 16px; =
+margin: 0 0 10px 0">Dies ist eine automatisch versendete E-Mail. Bitte antw=
+orten Sie nicht auf dieses Schreiben, da die E-Mail-Adresse nur zum Versend=
+en, nicht aber zum Empfang von E-Mails eingerichtet ist.</p> <p style=3D"fo=
+nt-family: &quot;Roboto&quot;, &quot;Helvetica Neue&quot;, &quot;Helvetica&=
+quot;, &quot;Arial&quot;, &quot;sans-serif&quot;; font-size: 13px; color: r=
+gb(102, 102, 102); line-height: 16px; margin: 0 0 10px 0"></p> </td>=20
+            </tr>=20
+           </tbody>
+          </table> </td>=20
+        </tr>=20
+        <!-- bottom section  ends-->=20
+       </tbody>
+      </table> </td>=20
+    </tr>=20
+   </tbody>
+  </table> =20
+ <img width=3D"1" height=3D"1" src=3D"https://www.amazon.de/gp/r.html?C=3D2=
+LLPPUPV7VLWX&K=3DIVS6IGI020N7&M=3Durn:rtn:msg:201911031503082646d3e31a9f416=
+e872832837bb0p0eu&R=3D2EYFVS5DBRQBJ&T=3DE&U=3Dhttps%3A%2F%2Fimages-eu.ssl-i=
+mages-amazon.com%2Fimages%2FG%2F01%2Fnav%2Ftransp.gif&H=3DKXSJ9Y6F0RQGF9SBK=
+8C9AUFSAG4A&ref_=3Dpe_2105091_80804451_open" /></body>
+</html>
+------=_Part_10586023_1741125017.1572793389283--
+

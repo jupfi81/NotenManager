@@ -1,0 +1,72 @@
+% chktex-file 3
+% chktex-file 36
+% {{{ Praeambel
+\documentclass[a6paper, landscape]{scrartcl}
+% {{{ Sprache und Kodierung
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{lmodern}
+\usepackage{microtype}
+\renewcommand{\familydefault}{\sfdefault}
+% }}}
+% {{{ Seitenlayout
+\usepackage{geometry}
+\geometry{left=1.5cm, right=1.5cm, top=2cm, bottom=1.5cm}
+\pagestyle{empty}
+\usepackage{enumitem}
+% }}}
+% {{{ Mathepakete
+\usepackage{mathtools}
+\usepackage{siunitx}
+\usepackage{ziffer}
+% }}}
+% {{{ Aufgabenpakete
+\usepackage{exsheets}
+\usepackage{tasks}
+% }}}
+% {{{ Grafikpakete
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{pgf}
+% }}}
+% {{{ Kopf und Fußzeile
+\usepackage[headsepline]{scrlayer-scrpage}
+\renewcommand*{\headfont}{\normalfont}
+\pagestyle{scrheadings}
+\clearscrheadfoot{}
+\ihead{Klasse 5}
+\chead{\textbf{Zahlensysteme}}
+\ohead{\today}
+% }}}
+% }}}
+
+\begin{document}
+\textbf{Aufgabe 1}\par
+Übersetze die Zahlen in das 10er-System.
+\begin{tasks}(4)
+	\task $(23)_5$
+	\task $(42)_5$
+	\task $(231)_5$
+	\task $(34001)_5$
+\end{tasks}
+
+\textbf{Aufgabe 2}\par
+Übersetze die Zahlen in das 5er-System.
+\begin{tasks}(4)
+	\task 23
+	\task 36
+	\task 123
+	\task 500
+\end{tasks}
+
+\textbf{Aufgabe 3}\par
+Übersetze die Zahlen in das 10er-System.
+\begin{tasks}(4)
+	\task $(10)_2$
+	\task $(1001)_2$
+	\task $(51)_6$
+	\task $(100)_6$
+\end{tasks}
+\end{document}
